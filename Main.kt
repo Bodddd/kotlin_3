@@ -48,3 +48,4 @@ fun calculate(first: Double, second: Double, operation: Char) {
 
 fun getTextNumber(number: Double): String {
     return if (number % 1.0 == 0.0) number.toInt().toString() else number.toString()
+}
